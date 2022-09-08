@@ -28,11 +28,9 @@ npm install eslint-config-airbnb-typescript \
             --save-dev
 ```
 
-4.
+4. Add to `package.json`
 ```json
-// package.json
   "scripts": {
-    // ...
     "lint": "npx eslint -c .eslintrc --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "npm run lint -- --fix"
   },
